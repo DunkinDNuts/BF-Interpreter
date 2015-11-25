@@ -61,8 +61,6 @@ void BrainFuck::Evaluate(const std::string program) {
 
 			case READ:
 				std::cin >> memory[pointer];
-				std::cin.clear();
-				std::cin.ignore(INT_MAX, '\n');
 				break;
 		}
 	}
